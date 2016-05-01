@@ -22,7 +22,7 @@ Prepare structure:
 ```
 mkdir cleaned
 mkdir notes
-echo "{"index":0}" > index.json
+echo "{"index":0}' > index.json
 ```
 
 Run this command and login to facebook, close the command once done:
