@@ -1,6 +1,6 @@
 {
   "name": "facebook-export-notes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Export your Facebook Notes as Facebook's takeout service doesn't do it for you",
   "homepage": "https://github.com/balupton/facebook-export-notes",
   "license": "MIT",
