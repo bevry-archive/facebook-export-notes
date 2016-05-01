@@ -41,33 +41,31 @@ Install dependencies - requires [node](https://nodejs.org)
 npm install
 ```
 
-Prepare structure:
+Automatically prepare structure:
 
 ```
-mkdir cleaned
-mkdir notes
-echo '{"index":0}' > index.json
+node --harmony lib/setup.js
 ```
 
-Run this command and login to facebook, close the command once done:
+Automatically open facebook window, manually login to facebook then close the window:
 
 ```
 node --harmony lib/login.js
 ```
 
-Download the URLs of all your notes:
+Automatically download the URLs of all your notes:
 
 ```
 node --harmony lib/urls.js
 ```
 
-Use those URLs to download the notes to `./notes`:
+Automatically use those URLs to download the notes to `./notes`:
 
 ```
 node --harmony lib/downloader.js
 ```
 
-Clean the output of the downloaded notes to `./cleaned`:
+Automatically clean the output of the downloaded notes to `./cleaned`:
 
 ```
 node --harmony lib/clean.js
