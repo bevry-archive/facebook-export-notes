@@ -1,0 +1,41 @@
+{
+  "title": "facebook-export-notes",
+  "version": "1.0.0",
+  "description": "Export your Facebook Notes as Facebook's takeout service doesn't do it for you",
+  "homepage": "https://github.com/balupton/facebook-export-notes",
+  "license": "MIT",
+  "keywords": [
+    "facebook",
+    "notes",
+    "facebook-notes",
+    "export",
+    "facebook-export"
+  ],
+  "author": "2016+ Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "https://github.com/balupton/facebook-export-notes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/balupton/facebook-export-notes.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "clean-html": "^1.3.6",
+    "nightmare": "^2.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-plugin-babel": "^3.2.0"
+  }
+}
