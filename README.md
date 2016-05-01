@@ -2,7 +2,31 @@
 
 Export your Facebook Notes as Facebook's takeout service doesn't do it for you
 
+
 ## Usage
+
+
+### As a Consumer
+
+Install [node](https://nodejs.org)
+
+Then install this:
+
+```
+npm install --global facebook-export-notes
+```
+
+Then run it, following the prompts:
+
+```
+facebook-export-notes
+```
+
+Notes should go inside `./notes` and `./cleaned`
+
+
+
+### As a Developer
 
 Clone the repository:
 
